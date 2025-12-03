@@ -5,7 +5,7 @@ app.get("/products", (req, res) => {
     res.json([
         { id: 1, name: "Produto Exemplo" },
         { id: 2, name: "Outro Produto" },
-        { id: 3, name: "Mais outro Produto" }
+        { id: 3, name: "Mais outro Produto" },
     ]);
 });
 // Nova funcionalidade
@@ -13,7 +13,7 @@ app.get("/categories", (req, res) => {
     res.json([
         { id: 1, name: "Eletrônicos" },
         { id: 2, name: "Livros" },
-        { id: 3, name: "Alimenos" },
+        { id: 3, name: "Alimentos" },
     ]);
 });
 const PORT = 3000;
